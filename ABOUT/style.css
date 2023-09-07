@@ -1,0 +1,120 @@
+
+ *{
+  padding-top: 0%;
+ }
+ 
+  .main{
+    width: 100%;
+    background: url(../pic/about.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -50px;
+
+}
+
+.navbar .logo{
+  width: 160px;
+  cursor: pointer;
+  margin-top: -3%;
+  margin-left: -2%;
+}
+
+ul{
+  margin-top: -4%;
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+
+ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-top: -3%;
+  transition: .4s ease;
+
+}
+
+ul li a:hover{
+  color: rgb(179, 4, 77);
+}
+
+
+
+  .about-me .about-heading {
+    color: #0af1f1;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .about-content img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    color:white;
+    padding: 0 2.3rem;
+    text-align: center;
+    
+  }
+  
+  .skills .skills-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0af1f1;
+    text-align:right;
+  }
+  
+  .about-me .about-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-content .left-content {
+    flex-basis: 45%;
+    text-align: center;
+  }
+  
+  .about-content .right-content {
+    flex-basis: 45%;
+    text-align: center;
+  }
+  
+ol li{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color:white;
+  margin-left: 250px;
+  transition: .4s ease;
+  line-height: 70px;
+
+
+}
+ 
+
+  
+  
+  /* ///.....Skill Bar....../// */
+  
+  
